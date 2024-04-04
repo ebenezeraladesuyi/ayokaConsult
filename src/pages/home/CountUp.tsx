@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import RevealOnScroll from '../../components/static/onScroll/RevealOnScroll';
 
 const CountUpSection: React.FC = () => {
   const [satisfiedClientsCount, setSatisfiedClientsCount] = useState(0);
@@ -47,28 +48,30 @@ const CountUpSection: React.FC = () => {
   }, [satisfiedClientsCount, completedJobsCount, servicesCount]);
 
   return (
-    <div className="count-up-section w-full h-[50vh md:h-[30vh] bg-black text-white flex  items-center justify-center md:gap-10 font-bold pt-[30px] pb-[30px]">
+    <RevealOnScroll>
+      <div className="count-up-section w-full h-[50vh md:h-[30vh] bg-black text-white flex  items-center justify-center md:gap-10 font-bold pt-[30px] pb-[30px]">
 
-        <div className='w-full md:w-[70%] lg:w-[50%] flex flex-col md:flex-row items-center gap-5 justify-center md:justify-between'>
-            
-            <div className="count-item text-[25px] md:text-[35px] lg:text-[35px] text-center">
-                <h2>{servicesCount}+</h2>
-                <p className='text-orange-500 text-[20px] md:text-[24px]'>Services</p>
-            </div>
-            
-            <div className="count-item text-[25px] md:text-[35px] lg:text-[35px] text-center">
-                <h2>{satisfiedClientsCount}+</h2>
-                <p className='text-orange-500 text-[20px] md:text-[24px]'>Satisfied Clients</p>
-            </div>
+          <div className='w-full md:w-[70%] lg:w-[50%] flex flex-col md:flex-row items-center gap-5 justify-center md:justify-between'>
+              
+              <div className="count-item text-[25px] md:text-[35px] lg:text-[35px] text-center">
+                  <h2>{servicesCount}+</h2>
+                  <p className='text-orange-500 text-[20px] md:text-[24px]'>Services</p>
+              </div>
+              
+              <div className="count-item text-[25px] md:text-[35px] lg:text-[35px] text-center">
+                  <h2>{satisfiedClientsCount}+</h2>
+                  <p className='text-orange-500 text-[20px] md:text-[24px]'>Satisfied Clients</p>
+              </div>
 
-            <div className="count-item text-[25px] md:text-[35px] lg:text-[35px]  text-center">
-                <h2>{completedJobsCount}+</h2>
-                <p className='text-orange-500 text-[20px] md:text-[24px]'>Completed Jobs</p>
-            </div>
+              <div className="count-item text-[25px] md:text-[35px] lg:text-[35px]  text-center">
+                  <h2>{completedJobsCount}+</h2>
+                  <p className='text-orange-500 text-[20px] md:text-[24px]'>Completed Jobs</p>
+              </div>
 
-        </div>
+          </div>
 
-    </div>
+      </div>
+    </RevealOnScroll>
   );
 };
 

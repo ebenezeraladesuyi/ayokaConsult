@@ -62,11 +62,11 @@ const Testimonies = () => {
 
           <Slider {...settings} className="w-[95%] px-10 mt-[10px]" >
 
-              <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, natus molestiae esse qui officiis fugiat ipsum animi ad in quidem, dolor, eos quasi culpa maxime aperiam nulla. Inventore, pariatur tempora. <br /><span className="font-bold mt-[30px]">- JUDITH MICHEAL</span></h2>
+              <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">"Remarkable experience! Their IT solutions streamlined our operations, the graphics design team brought our vision to life with creativity, and the printing service delivered exceptional quality on time. Highly recommended!" <br /><span className="font-bold mt-[30px]">- JUDITH MICHEAL</span></h2>
 
-              <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, natus molestiae esse qui officiis fugiat ipsum animi ad in quidem, dolor, eos quasi culpa maxime aperiam nulla. Inventore, pariatur tempora. <br /><span className="font-bold mt-[30px]">- LORI TEACH</span></h2>
+              <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center">"The graphics design team delivered captivating visuals that elevate our brand, and the printing service provided impeccable quality. A reliable partner for our business growth!" <br /><span className="font-bold mt-[30px]">- LORI TEACH</span></h2>
 
-              <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center w-[90%] md:w-[70%] lg:w-[60%]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, natus molestiae esse qui officiis fugiat ipsum animi ad in quidem, dolor, eos quasi culpa maxime aperiam nulla. Inventore, pariatur tempora. <br /><span className="font-bold mt-[30px]">- BEN GRIMMER</span></h2>
+              <h2 className="text-[13px] md:text-[16px] lg:text-[20px] text-center w-[90%] md:w-[70%] lg:w-[60%]">"Incredible! Their IT solutions revolutionized our workflow, the graphics design team captured our brand essence perfectly, and the printing quality surpassed expectations. A one-stop solution for all our needs!" <br /><span className="font-bold mt-[30px]">- BEN GRIMMER</span></h2>
 
           </Slider>
           

@@ -4,7 +4,7 @@
 import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineAttachEmail } from "react-icons/md";
 import { FaFacebookSquare, FaInstagramSquare, FaWhatsappSquare } from "react-icons/fa";
-// import logo from "../../assets/images/DWC-Logo2.png"
+import logo from "../../assets/images/logo1.jpg"
 import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -14,8 +14,8 @@ const Footer = () => {
 
         <div className=" flex flex-col gap-3 mb-[15px] md:mb-0 md:w-[40%]">
 
-          {/* <img className="w-[60px]" src={logo} alt="" /> */}
-          <h5 className="text-white font-bold text-[20px]">LOGO</h5>
+          <img className="w-[40px] rounded-md md:w-[55px]" src={logo} alt="" />
+          {/* <h5 className="text-white font-bold text-[20px]">LOGO</h5> */}
 
           <hr className="border-[2px] w-[50px] border-[#eedfb0]" />
 

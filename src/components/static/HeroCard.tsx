@@ -48,7 +48,7 @@ const HeroCard:React.FC<iHeroCard> = ({ content1, content2, content3}) => {
           {content3}
         </h4>
 
-        <a href='https://api.whatsapp.com/send/?phone=353863571899&text&type=phone_number&app_absent=0' className='bg-black text-white transition-all duration-300 ease-in-out text-[13px] md:w-[160px] h-[45px] hover:w-[130px] md:hover:w-[180px] hover:text-white hover:h-[49px border-none mt-[20px] outline-none hover:border-none'>
+        <a href='https://wa.me/message/MM234C4EY34PJ1' className='bg-black text-white transition-all duration-300 ease-in-out text-[13px] md:w-[160px] h-[45px] hover:w-[130px] md:hover:w-[180px] hover:text-white hover:h-[49px border-none mt-[20px] outline-none hover:border-none'>
           Get in Touch
         </a>
 
